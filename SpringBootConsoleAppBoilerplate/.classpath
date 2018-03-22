@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="lib/springboot/commons-lang3-3.7.jar"/>
+	<classpathentry kind="lib" path="lib/springboot/jcl-over-slf4j-1.7.25.jar"/>
+	<classpathentry kind="lib" path="lib/springboot/jul-to-slf4j-1.7.25.jar"/>
+	<classpathentry kind="lib" path="lib/springboot/log4j-over-slf4j-1.7.25.jar"/>
+	<classpathentry kind="lib" path="lib/springboot/logback-classic-1.1.11.jar"/>
+	<classpathentry kind="lib" path="lib/springboot/logback-core-1.1.11.jar"/>
+	<classpathentry kind="lib" path="lib/springboot/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="lib/springboot/snakeyaml-1.17.jar"/>
+	<classpathentry kind="lib" path="lib/springboot/spring-aop-4.3.13.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/springboot/spring-beans-4.3.13.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/springboot/spring-boot-1.5.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/springboot/spring-boot-autoconfigure-1.5.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/springboot/spring-context-4.3.13.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/springboot/spring-core-4.3.13.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/springboot/spring-expression-4.3.13.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
