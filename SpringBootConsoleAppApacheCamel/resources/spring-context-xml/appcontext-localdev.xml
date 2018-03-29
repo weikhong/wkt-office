@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans profile="localdev" xmlns="http://www.springframework.org/schema/beans"
+	xmlns:camel="http://camel.apache.org/schema/spring"
 	xmlns:context="http://www.springframework.org/schema/context"
 	xmlns:util="http://www.springframework.org/schema/util"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="
 			http://www.springframework.org/schema/beans
 			http://www.springframework.org/schema/beans/spring-beans.xsd
+			http://camel.apache.org/schema/spring
+			http://camel.apache.org/schema/spring/camel-spring.xsd
 			http://www.springframework.org/schema/context
 			http://www.springframework.org/schema/context/spring-context.xsd
 			http://www.springframework.org/schema/util
@@ -16,4 +19,14 @@
 	<!-- https://stackoverflow.com/questions/11415711/programmatic-access-to-properties-created-by-property-placeholder -->
 	<util:properties id="appProperties" location="classpath:spring-properties-files/localdev-props.properties" />
 	<context:property-placeholder properties-ref="appProperties" />
+
+	<camel:camelContext id="camelContext">
+		<camel:route>
+			<camel:from uri="timer://simpleTimer?period=1000" />
+			<camel:setBody>
+				<camel:simple>Hello from timer at ${header.firedTime}</camel:simple>
+			</camel:setBody>
+			<camel:to uri="stream:out" />
+		</camel:route>
+	</camel:camelContext>
 </beans>  
