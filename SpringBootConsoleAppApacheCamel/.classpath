@@ -18,5 +18,8 @@
 	<classpathentry kind="lib" path="lib/springboot/spring-context-4.3.13.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/springboot/spring-core-4.3.13.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/springboot/spring-expression-4.3.13.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/apache-camel/camel-core-2.21.0.jar"/>
+	<classpathentry kind="lib" path="lib/apache-camel/camel-spring-2.21.0.jar"/>
+	<classpathentry kind="lib" path="lib/apache-camel-component/camel-stream-2.21.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
