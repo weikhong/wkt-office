@@ -1,0 +1,19 @@
+<ion-view view-title="My Tasks">
+  <ion-content>
+    <ion-list>
+      <ul class="list">
+	      <label class="item item-input">
+	        <input type="text" placeholder="New Todo" ng-model="todo.title">
+	      </label>
+	      <button class="button button-block button-positive" ng-click="addTodo(todo)">
+	      Add
+	      </button>
+	      <li class="item item-checkbox" ng-repeat="todo in todos">
+	        <label class="checkbox">
+	          <input type="checkbox" ng-model="todo.done" ng-checked={{todo.done}}>
+	        </label> {{todo.title}}
+	      </li>
+	    </ul>
+    </ion-list>
+  </ion-content>
+</ion-view>

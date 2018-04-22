@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resources"/>
+	<classpathentry kind="src" path="webapp"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="lib/springboot/commons-lang3-3.7.jar"/>
+	<classpathentry kind="lib" path="lib/springboot/jcl-over-slf4j-1.7.25.jar"/>
+	<classpathentry kind="lib" path="lib/springboot/jul-to-slf4j-1.7.25.jar"/>
+	<classpathentry kind="lib" path="lib/springboot/log4j-over-slf4j-1.7.25.jar"/>
+	<classpathentry kind="lib" path="lib/springboot/logback-classic-1.1.11.jar"/>
+	<classpathentry kind="lib" path="lib/springboot/logback-core-1.1.11.jar"/>
+	<classpathentry kind="lib" path="lib/springboot/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="lib/springboot/snakeyaml-1.17.jar"/>
+	<classpathentry kind="lib" path="lib/springboot/spring-aop-4.3.13.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/springboot/spring-beans-4.3.13.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/springboot/spring-boot-1.5.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/springboot/spring-boot-autoconfigure-1.5.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/springboot/spring-context-4.3.13.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/springboot/spring-core-4.3.13.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/springboot/spring-expression-4.3.13.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/springboot-web/jackson-annotations-2.9.4.jar"/>
+	<classpathentry kind="lib" path="lib/springboot-web/jackson-core-2.9.4.jar"/>
+	<classpathentry kind="lib" path="lib/springboot-web/jackson-databind-2.9.4.jar"/>
+	<classpathentry kind="lib" path="lib/springboot-web/jackson-dataformat-xml-2.9.4.jar"/>
+	<classpathentry kind="lib" path="lib/springboot-web/jackson-module-jaxb-annotations-2.9.4.jar"/>
+	<classpathentry kind="lib" path="lib/springboot-web/spring-web-4.3.13.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/springboot-web/spring-webmvc-4.3.13.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/springboot-web/stax2-api-4.0.0.jar"/>
+	<classpathentry kind="lib" path="lib/tomcat-embedded-8.5/tomcat-embed-core-8.5.23.jar"/>
+	<classpathentry kind="lib" path="lib/tomcat-embedded-8.5/tomcat-embed-el-8.5.23.jar"/>
+	<classpathentry kind="lib" path="lib/tomcat-embedded-8.5/tomcat-embed-websocket-8.5.23.jar"/>
+	<classpathentry kind="lib" path="lib/tomcat-embedded-mvc-8.5/ecj-3.12.3.jar"/>
+	<classpathentry kind="lib" path="lib/tomcat-embedded-mvc-8.5/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/tomcat-embedded-mvc-8.5/tomcat-embed-jasper-8.5.23.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
